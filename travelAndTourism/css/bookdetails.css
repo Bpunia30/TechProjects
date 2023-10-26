@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.booking-data {
+    background-color: #E0F2F1;
+    padding: 30px;
+}
+
+.booking-data>div {
+    background-color: white;
+    padding: 20px;
+    width: 40%;
+    margin-left: 20%;
+}
+
+.booking-data>div>img {
+    width: 5%;
+}
+
+.booking-data>div>h1 {
+    display: inline-block;
+    margin: 10px;
+}
+
+.booking-data>div>p {
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.book-method {
+    background-color: #E0F2F1;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.methods {
+    padding: 30px;
+    background-color: white;
+    margin-left: 20%;
+}
+
+.methods>div {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.methods>div>h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.method-details {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    margin-right: 30%;
+}
+
+.details-form>input,
+.details-form>select {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.details-form>button {
+    margin: 10px;
+    padding: 5px 15px;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    margin-left: 35%;
+    cursor: pointer;
+}
+
+.otp {
+    background-color: #E0F2F1;
+    padding: 30px;
+}
+
+.otp>div {
+    margin-left: 30%;
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+}
+
+.otp>div>input {
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.otp>div>button {
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 10px;
+    margin-left: 50px;
+}
